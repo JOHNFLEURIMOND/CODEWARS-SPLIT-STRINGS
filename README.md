@@ -1,16 +1,15 @@
-![Codewars](img/Arraydiff.png)
+![Codewars](img/Split-Strings.png)
 
 # My Awesome Project
-Question:
-Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
+Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').
 
-It should remove all values from list a, which are present in list b.
+Examples:
 
-array_diff([1,2],[1]) == [2]
-If a value is present in b, all of its occurrences must be removed from the other:
+solution('abc') // should return ['ab', 'c_']
+solution('abcdef') // should return ['ab', 'cd', 'ef']
 
-array_diff([1,2,2,2,3],[2]) == [1,3]
 
+## ALGORITHMS REGULAR EXPRESSIONS DECLARATIVE PROGRAMMING ADVANCED LANGUAGE FEATURES FUNDAMENTALS STRINGS
 
 ## How It's Made
 I knew off rip I had to go thru each indexOf array list[a] and if they were present in [b] remove it. As well as having to remove whatever indexOf[b] that was an occurrence in [a] remove from one another then combine it.
